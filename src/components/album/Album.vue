@@ -16,8 +16,12 @@
         </v-card-title>
 
         <v-card-actions>
-          <v-btn flat color="orange">Share</v-btn>
-          <v-btn flat color="orange">Explore</v-btn>
+          <v-btn flat icon color="blue lighten-2">
+            <v-icon>thumb_up</v-icon>
+          </v-btn>
+          <v-btn flat icon color="blue lighten-2">
+            <v-icon>share</v-icon>
+          </v-btn>
         </v-card-actions>
       </v-card>
 
@@ -37,8 +41,12 @@
         </v-card-title>
 
         <v-card-actions>
-          <v-btn flat color="orange">Share</v-btn>
-          <v-btn flat color="orange">Explore</v-btn>
+          <v-btn flat icon color="blue lighten-2">
+            <v-icon>thumb_up</v-icon>
+          </v-btn>
+          <v-btn flat icon color="blue lighten-2">
+            <v-icon>share</v-icon>
+          </v-btn>
         </v-card-actions>
       </v-card>
      </v-flex>

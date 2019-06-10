@@ -43,6 +43,7 @@
             <v-list-tile-title>Favorite</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
+        <router-link tag="li" to="/setting">
         <v-list-tile @click="">
           <v-list-tile-action>
             <v-icon>settings</v-icon>
@@ -51,6 +52,7 @@
             <v-list-tile-title>Settings</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
+        </router-link>
       </v-list>
     </v-navigation-drawer>
     <v-toolbar app fixed clipped-left>
